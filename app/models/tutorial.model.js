@@ -3,8 +3,7 @@ module.exports = mongoose => {
     {
       marketId: String,
       eventId: String,
-      eventName: String,
-      mEventId: String
+      eventName: String
     },
     { timestamps: true }
   );

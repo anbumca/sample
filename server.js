@@ -14,6 +14,8 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+require('./cron-jobs.js');
+
 const db = require("./app/models");
 db.mongoose
   .connect(db.url, {
