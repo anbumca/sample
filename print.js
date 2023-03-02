@@ -1,0 +1,1 @@
+javascript:document.body.appendChild(document.querySelector("#readme"));document.querySelector("header").remove();document.querySelector(".application-main").remove();document.querySelector("footer").remove();window.print();
